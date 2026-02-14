@@ -34,11 +34,11 @@ export function Team() {
       <div className="max-w-[1060px] mx-auto">
         {/* Section header */}
         <motion.h2
-          className="text-[15px] md:text-[17px] text-[#003a59]/40 mb-1 text-center tracking-[0.02em]"
+          className="text-[15px] md:text-[17px] text-[#b8d4e3]/60 mb-1 text-center tracking-[0.02em]"
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 400 }}
           {...fadeUp(0)}
         >
-          The Team
+          The Crew
         </motion.h2>
         <motion.h3
           className="text-[1.8rem] md:text-[2.4rem] lg:text-[2.8rem] leading-[1.1] tracking-[-0.02em] text-[#1d88a4] mb-3 text-center"

@@ -56,7 +56,7 @@ export function StickyNav() {
             href="#team"
             className="text-[#003a59] hover:text-[#1d88a4] transition-colors"
           >
-            Team
+            The Crew
           </a>
         </div>
 

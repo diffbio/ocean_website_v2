@@ -72,11 +72,11 @@ export function SequenceHero() {
             Request Early Access
           </a>
           <a
-            href="#about"
+            href="#team"
             className="px-6 py-2.5 bg-[#1d88a4] text-white rounded-full hover:bg-[#2398b6] transition-all duration-300 text-[14px] tracking-[-0.01em]"
             style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 500 }}
           >
-            Meet The Team
+            Meet The Crew
           </a>
         </motion.div>
       </div>
