@@ -66,9 +66,7 @@ export function BottomDark() {
 
         <motion.div {...fadeUp(0.4)}>
           <a
-            href="https://forms.gle/g8EKdN4BsUqQu1zd9"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#early-access"
             className="inline-block px-7 py-3 bg-[#1d88a4] text-white rounded-full hover:bg-[#2398b6] transition-all duration-300 text-[14px] tracking-[-0.01em]"
             style={{
               fontFamily: "'DM Sans', sans-serif",

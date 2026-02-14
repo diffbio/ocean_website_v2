@@ -121,7 +121,7 @@ export function Team() {
         </div>
       </div>
 
-      {/* Wave transition to Footer */}
+      {/* Wave transition to ContactForm */}
       <div className="relative z-[2] leading-[0] mt-10 md:mt-14 -mx-6 md:-mx-8">
         <svg
           className="block w-full h-[40px] md:h-[60px]"

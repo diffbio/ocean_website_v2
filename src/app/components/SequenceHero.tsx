@@ -59,9 +59,7 @@ export function SequenceHero() {
         {/* CTA Buttons */}
         <motion.div className="flex flex-wrap gap-3 justify-center mb-8 md:mb-12" {...fadeUp(0.9)}>
           <a
-            href="https://forms.gle/g8EKdN4BsUqQu1zd9"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#early-access"
             className="px-6 py-2.5 bg-[#1d88a4] text-white rounded-full hover:bg-[#2398b6] transition-all duration-300 text-[14px] tracking-[-0.01em]"
             style={{
               fontFamily: "'DM Sans', sans-serif",

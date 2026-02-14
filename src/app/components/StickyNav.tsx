@@ -62,9 +62,7 @@ export function StickyNav() {
 
         {/* Right: CTA */}
         <a
-          href="https://forms.gle/g8EKdN4BsUqQu1zd9"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#early-access"
           className="px-4 py-1.5 bg-[#1d88a4] text-white rounded-full hover:bg-[#2398b6] transition-all duration-300 text-[13px] tracking-[-0.01em]"
           style={{
             fontFamily: "'DM Sans', sans-serif",

@@ -4,6 +4,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { BottomDark } from './components/BottomDark';
 import { Footer } from './components/Footer';
 import { Team } from './components/Team';
+import { ContactForm } from './components/ContactForm';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <HowItWorks />
       <BottomDark />
       <Team />
+      <ContactForm />
       <Footer />
     </div>
   );
