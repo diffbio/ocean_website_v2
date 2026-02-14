@@ -30,8 +30,8 @@ export function BottomDark() {
             className="text-[14px] md:text-[16px] text-[#b8d4e3] leading-[1.7]"
             style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
           >
-            Protein design is fast on the surface. Generative models can produce
-            thousands of candidate sequences in hours. But validation is where
+            Protein design is fast on the surface, slow the deeper you go. Generative models can produce
+            thousands of candidate sequences in hours; validation is where
             things break down. Most candidates that look plausible{' '}
             <em>in silico</em> fail basic biochemical screens: they misfold, bind
             weakly, or fall apart under real conditions.

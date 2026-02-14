@@ -54,8 +54,7 @@ export function Team() {
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
           {...fadeUp(0.1)}
         >
-          We're committed to broad accessibility across different groups
-          requiring our solutions.
+          We're committed to making our solutions broadly accessible.
         </motion.p>
 
         {/* Team cards */}

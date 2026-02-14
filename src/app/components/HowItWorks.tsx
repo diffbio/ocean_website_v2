@@ -33,7 +33,7 @@ const steps = [
     number: '01',
     icon: '/svgs/computer-combined.svg',
     title: 'Design in the browser',
-    subtitle: 'AI Native Protein Engineering',
+    subtitle: 'Ideas to Testable Biological Hypotheses',
     paragraphs: [
       'Explore sequence space, predict structures, and generate candidates without context-switching or messy wrappers.',
       'A/B test parts of your flagship pipeline against the newest models without a total overhaul.',
@@ -213,8 +213,8 @@ function FeatureCard({
       </span>
 
       {/* Icon */}
-      <div className="w-[100px] md:w-[120px] bg-[#B8D4E3] rounded-2xl p-3 flex items-center justify-center mb-4">
-        <img src={icon} alt="" className="w-full" />
+      <div className="w-[100px] h-[100px] md:w-[120px] md:h-[120px] bg-[#B8D4E3] rounded-2xl p-3 flex items-center justify-center mb-4">
+        <img src={icon} alt="" className="max-w-full max-h-full object-contain" />
       </div>
 
       {/* Title */}
