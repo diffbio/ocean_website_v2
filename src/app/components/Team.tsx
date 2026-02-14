@@ -18,7 +18,7 @@ const team = [
     name: 'Luke Miller',
     role: 'CTO',
     photo: '/images/luke.png',
-    background: ['Microsoft \u2014 Xbox Hardware', 'Reliable Robotics', 'SpaceX Flight Software'],
+    background: ['Microsoft, Xbox Hardware', 'Reliable Robotics', 'SpaceX Flight Software'],
   },
 ];
 

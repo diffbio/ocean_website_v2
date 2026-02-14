@@ -12,21 +12,6 @@ export function Footer() {
             <span className="text-[#a4832e]">bio</span>
           </span>
 
-          {/* Links */}
-          <div
-            className="flex gap-5 text-[13px] text-[#b8d4e3]/50"
-            style={{ fontFamily: "'Work Sans', sans-serif" }}
-          >
-            <a href="#" className="hover:text-[#b8d4e3] transition-colors">
-              Privacy
-            </a>
-            <a href="#" className="hover:text-[#b8d4e3] transition-colors">
-              Terms
-            </a>
-            <a href="#" className="hover:text-[#b8d4e3] transition-colors">
-              Security
-            </a>
-          </div>
         </div>
       </div>
     </footer>

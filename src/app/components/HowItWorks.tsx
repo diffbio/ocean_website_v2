@@ -33,6 +33,7 @@ const steps = [
     number: '01',
     icon: '/svgs/computer-combined.svg',
     title: 'Design in the browser',
+    subtitle: 'AI Native Protein Engineering',
     paragraphs: [
       'Explore sequence space, predict structures, and generate candidates without context-switching or messy wrappers.',
       'A/B test parts of your flagship pipeline against the newest models without a total overhaul.',
@@ -42,7 +43,7 @@ const steps = [
     number: '02',
     icon: '/svgs/labrobot.png',
     title: 'We build and test',
-    subtitle: 'Hardware in the Loop',
+    subtitle: 'Hardware in the Loop for Biology',
     paragraphs: [
       'Submit your design sequences.',
       'We handle the DNA and the expression. Let our automation run assays to show which sequences are on the right track ... or whether to cut and run!',
@@ -52,6 +53,7 @@ const steps = [
     number: '03',
     icon: '/svgs/dataflow-logo.svg',
     title: 'Data flows back',
+    subtitle: 'Full Traceability',
     paragraphs: [
       'Results integrate directly into your workspace with full traceability. See what worked and use the data to inform your next batch.',
       'You get all the data right in the browser; even raw outputs, calibrations, and standards.',
@@ -62,12 +64,10 @@ const steps = [
     number: '04',
     icon: '/svgs/iterate.svg',
     title: 'Iterate quickly',
+    subtitle: 'Compound Your Learnings',
     paragraphs: [
-      'Find the right hits sooner.',
-      'Learn from your designs faster.',
-      'Run more experiments per quarter.',
-      'De-risk your long shots.',
-      'Early proof before expensive optimization.',
+      'Find the right hits sooner and learn from your designs faster. Run more experiments per quarter than you thought possible.',
+      'De-risk your long shots with early proof before committing to expensive optimization.',
     ],
   },
 ];

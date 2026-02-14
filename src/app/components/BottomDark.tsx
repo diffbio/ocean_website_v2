@@ -30,7 +30,7 @@ export function BottomDark() {
             className="text-[14px] md:text-[16px] text-[#b8d4e3] leading-[1.7]"
             style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
           >
-            Protein design is fast on the surface — generative models can produce
+            Protein design is fast on the surface. Generative models can produce
             thousands of candidate sequences in hours. But validation is where
             things break down. Most candidates that look plausible{' '}
             <em>in silico</em> fail basic biochemical screens: they misfold, bind
@@ -41,7 +41,7 @@ export function BottomDark() {
             style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
           >
             The only way to guarantee you've got the right molecule is to test
-            it. We close the loop — making that cycle fast, consistent, and
+            it. We close the loop: making that cycle fast, consistent, and
             integrated with your design process so you can iterate with
             confidence.
           </p>
