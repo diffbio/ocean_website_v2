@@ -3,6 +3,10 @@
 @import 'tw-animate-css';
 @import './theme.css';
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes marquee-scroll {
   0% {
     transform: translateX(0);
@@ -51,5 +55,35 @@
   }
   66% {
     transform: translateY(-5px) rotate(1deg);
+  }
+}
+
+@keyframes bubble-rise {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-110vh) translateX(20px);
+    opacity: 0;
+  }
+}
+
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(29, 136, 164, 0.3), 0 0 20px rgba(29, 136, 164, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(29, 136, 164, 0.5), 0 0 40px rgba(29, 136, 164, 0.2);
   }
 }

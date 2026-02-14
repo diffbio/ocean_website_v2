@@ -23,7 +23,8 @@ export function Marquee() {
   const items = [...MARQUEE_SVGS, ...MARQUEE_SVGS];
 
   return (
-    <div className="bg-[#e8f4f8] py-10 overflow-hidden">
+    <div className="bg-[#c4dce8] py-5 overflow-hidden space-y-4">
+      {/* Row 1 — scrolls left */}
       <div
         className="flex gap-16 items-center hover:[animation-play-state:paused]"
         style={{
@@ -36,7 +37,26 @@ export function Marquee() {
             key={i}
             src={src}
             alt=""
-            className="w-8 h-8 md:w-11 md:h-11 opacity-20 flex-shrink-0"
+            className="w-8 h-8 md:w-11 md:h-11 opacity-30 flex-shrink-0"
+            style={{ filter: 'sepia(0.2) hue-rotate(160deg) saturate(0.5)' }}
+          />
+        ))}
+      </div>
+
+      {/* Row 2 — scrolls right (counter-scroll) */}
+      <div
+        className="flex gap-16 items-center hover:[animation-play-state:paused]"
+        style={{
+          animation: 'marquee-scroll 50s linear infinite reverse',
+          width: 'max-content',
+        }}
+      >
+        {[...items].reverse().map((src, i) => (
+          <img
+            key={i}
+            src={src}
+            alt=""
+            className="w-8 h-8 md:w-11 md:h-11 opacity-30 flex-shrink-0"
             style={{ filter: 'sepia(0.2) hue-rotate(160deg) saturate(0.5)' }}
           />
         ))}
