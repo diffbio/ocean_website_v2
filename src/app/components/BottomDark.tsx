@@ -18,14 +18,21 @@ export function BottomDark() {
     >
       <div className="max-w-[800px] mx-auto">
         <motion.h2
-          className="text-[1.8rem] md:text-[2.4rem] lg:text-[2.8rem] leading-[1.1] tracking-[-0.02em] text-[#1d88a4] mb-6"
+          className="text-[15px] md:text-[17px] text-[#b8d4e3]/60 mb-1 text-center tracking-[0.02em]"
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 400 }}
           {...fadeUp(0)}
         >
-          Most computational designs fail when they hit the real world
+          Why
         </motion.h2>
+        <motion.h3
+          className="text-[1.8rem] md:text-[2.4rem] lg:text-[2.8rem] leading-[1.1] tracking-[-0.02em] text-[#1d88a4] mb-6"
+          style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 400 }}
+          {...fadeUp(0.05)}
+        >
+          Most computational designs fail when they hit the real world
+        </motion.h3>
 
-        <motion.div className="space-y-4 mb-8" {...fadeUp(0.2)}>
+        <motion.div className="space-y-4 mb-6" {...fadeUp(0.2)}>
           <p
             className="text-[14px] md:text-[16px] text-[#b8d4e3] leading-[1.7]"
             style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
@@ -45,6 +52,16 @@ export function BottomDark() {
             integrated with your design process so you can iterate with
             confidence.
           </p>
+        </motion.div>
+
+        {/* Robot fish divider */}
+        <motion.div className="flex justify-center mb-6" {...fadeUp(0.3)}>
+          <img
+            src="/svgs/robot-fish.svg"
+            alt=""
+            className="w-[120px] md:w-[160px] pointer-events-none"
+            style={{ animation: 'bob 5s ease-in-out infinite' }}
+          />
         </motion.div>
 
         <motion.div {...fadeUp(0.4)}>

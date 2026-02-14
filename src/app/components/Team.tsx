@@ -13,12 +13,14 @@ const team = [
     role: 'CEO',
     photo: '/images/dmitri.png',
     background: ['Institute for Protein Design', 'Zip Bio'],
+    linkedin: 'https://www.linkedin.com/in/dzorine/',
   },
   {
     name: 'Luke Miller',
     role: 'CTO',
     photo: '/images/luke.png',
     background: ['Microsoft, Xbox Hardware', 'Reliable Robotics', 'SpaceX Flight Software'],
+    linkedin: 'https://www.linkedin.com/in/lukemillerrobotics/',
   },
 ];
 
@@ -50,18 +52,32 @@ export function Team() {
           with ironclad engineering
         </motion.h3>
         <motion.p
-          className="text-[14px] md:text-[16px] text-[#b8d4e3]/60 mb-10 md:mb-14 text-center max-w-[600px] mx-auto leading-[1.7]"
+          className="text-[14px] md:text-[16px] text-[#b8d4e3]/60 mb-6 text-center max-w-[600px] mx-auto leading-[1.7]"
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
           {...fadeUp(0.1)}
         >
-          We're committed to making our solutions broadly accessible.
+          Built by those who have closed the loop for real
         </motion.p>
+
+        {/* Squid divider */}
+        <motion.div className="flex justify-center mb-8 md:mb-10" {...fadeUp(0.15)}>
+          <img
+            src="/svgs/squid-combined.svg"
+            alt=""
+            className="w-[140px] md:w-[180px] pointer-events-none"
+            style={{ animation: 'bob 7s ease-in-out infinite' }}
+          />
+        </motion.div>
 
         {/* Team cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-[700px] mx-auto">
           {team.map((member, i) => (
             <motion.div key={member.name} {...fadeUp(i * 0.15)}>
-              <div className="bg-[#2d6a7a]/90 border border-white/10 rounded-[20px] p-6 md:p-8 shadow-[0_4px_24px_rgba(0,0,0,0.15)] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(0,0,0,0.2)] transition-all duration-300 h-full flex flex-col items-center text-center">
+              <a
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-[#2d6a7a]/90 border border-white/10 rounded-[20px] p-6 md:p-8 shadow-[0_4px_24px_rgba(0,0,0,0.15)] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(0,0,0,0.2)] transition-all duration-300 h-full flex flex-col items-center text-center">
                 {/* Photo */}
                 <div className="w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-full overflow-hidden mb-4 border-2 border-white/10">
                   <img
@@ -99,7 +115,7 @@ export function Team() {
                     </p>
                   ))}
                 </div>
-              </div>
+              </a>
             </motion.div>
           ))}
         </div>

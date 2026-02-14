@@ -50,7 +50,7 @@ export function StickyNav() {
             href="#about"
             className="text-[#003a59] hover:text-[#1d88a4] transition-colors"
           >
-            About
+            Why
           </a>
           <a
             href="#team"

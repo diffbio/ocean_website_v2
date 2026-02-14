@@ -112,7 +112,7 @@ export function HowItWorks() {
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 400 }}
           {...fadeUp(0.1)}
         >
-          We run a tight ship:
+          We run a tight ship
           <br />
           Design to data in days
         </motion.h3>
@@ -123,7 +123,7 @@ export function HowItWorks() {
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 400 }}
           {...fadeUp(0.15)}
         >
-          Engineered for speed, consistency, and trust
+          The missing layer between computation and biochemical reality
         </motion.p>
 
         {/* Intro text — wider */}
@@ -148,9 +148,9 @@ export function HowItWorks() {
         {/* Deliberate creature accent — centered divider */}
         <motion.div className="flex justify-center mb-6" {...fadeUp(0.25)}>
           <img
-            src="/svgs/robot-fish.svg"
+            src="/svgs/fish-science.svg"
             alt=""
-            className="w-[120px] md:w-[160px] pointer-events-none"
+            className="w-[140px] md:w-[180px] pointer-events-none"
             style={{ animation: 'bob 5s ease-in-out infinite' }}
           />
         </motion.div>

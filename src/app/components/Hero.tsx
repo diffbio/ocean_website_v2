@@ -1,18 +1,6 @@
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-[#25373b]">
-      {/* Subtle decorative SVGs */}
-      <img
-        src="/svgs/mantaray-coral.svg"
-        alt=""
-        className="absolute top-[5%] left-[-2%] w-40 md:w-64 opacity-[0.07] rotate-[-15deg] pointer-events-none"
-      />
-      <img
-        src="/svgs/squid-combined.svg"
-        alt=""
-        className="absolute top-[8%] right-[-3%] w-32 md:w-52 opacity-[0.06] rotate-[12deg] pointer-events-none"
-      />
-
       <div className="relative z-10 max-w-[820px] mx-auto px-6 md:px-8 pt-20 md:pt-32 pb-6 md:pb-10">
         <h1
           className="text-[2.2rem] md:text-[3rem] lg:text-[3.8rem] leading-[1.05] tracking-[-0.02em] text-[#1d88a4] mb-8"
@@ -50,6 +38,16 @@ export function Hero() {
         >
           Request Early Access
         </a>
+
+        {/* Manta ray divider */}
+        <div className="flex justify-center mt-10 md:mt-14">
+          <img
+            src="/svgs/mantaray-coral.svg"
+            alt=""
+            className="w-[160px] md:w-[220px] pointer-events-none"
+            style={{ animation: 'bob 6s ease-in-out infinite' }}
+          />
+        </div>
 
         {/* Lighthouse combined illustration */}
         <div className="mt-12 md:mt-16 flex justify-center">
