@@ -17,6 +17,12 @@ export default defineConfig({
 
   server: {
     allowedHosts: true,
+    host: '0.0.0.0',
+    cors: true,
+    hmr: {
+      // Don't let HMR websocket failures block page load
+      overlay: false,
+    },
   },
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
