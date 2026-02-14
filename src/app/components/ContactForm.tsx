@@ -35,7 +35,7 @@ export function ContactForm() {
       id="early-access"
       className="relative px-6 md:px-8 pt-12 md:pt-20 pb-0 overflow-hidden"
       style={{
-        background: 'linear-gradient(180deg, #25373b 0%, #1a4a5e 100%)',
+        background: 'linear-gradient(180deg, #1d3a42 0%, #152a30 100%)',
       }}
     >
       <div className="max-w-[600px] mx-auto">
@@ -59,7 +59,7 @@ export function ContactForm() {
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
           {...fadeUp(0.1)}
         >
-          Join the waitlist and be among the first to accelerate your protein design workflow.
+         Tell us about your workflow and learn how DiffBio can accelerate your designs. 
         </motion.p>
 
         {submitted ? (
@@ -120,7 +120,7 @@ export function ContactForm() {
                   id="name"
                   name="name"
                   required
-                  className="w-full px-4 py-3 bg-[#1a4a5e]/50 border border-white/10 rounded-lg text-white placeholder-[#b8d4e3]/40 focus:outline-none focus:border-[#1d88a4] transition-colors text-[15px]"
+                  className="w-full px-4 py-3 bg-[#0a1a1e]/50 border border-white/10 rounded-lg text-white placeholder-[#b8d4e3]/40 focus:outline-none focus:border-[#1d88a4] transition-colors text-[15px]"
                   style={{ fontFamily: "'Work Sans', sans-serif" }}
                   placeholder="Your name"
                 />
@@ -140,7 +140,7 @@ export function ContactForm() {
                   id="email"
                   name="email"
                   required
-                  className="w-full px-4 py-3 bg-[#1a4a5e]/50 border border-white/10 rounded-lg text-white placeholder-[#b8d4e3]/40 focus:outline-none focus:border-[#1d88a4] transition-colors text-[15px]"
+                  className="w-full px-4 py-3 bg-[#0a1a1e]/50 border border-white/10 rounded-lg text-white placeholder-[#b8d4e3]/40 focus:outline-none focus:border-[#1d88a4] transition-colors text-[15px]"
                   style={{ fontFamily: "'Work Sans', sans-serif" }}
                   placeholder="you@company.com"
                 />
@@ -159,7 +159,7 @@ export function ContactForm() {
                   type="text"
                   id="company"
                   name="company"
-                  className="w-full px-4 py-3 bg-[#1a4a5e]/50 border border-white/10 rounded-lg text-white placeholder-[#b8d4e3]/40 focus:outline-none focus:border-[#1d88a4] transition-colors text-[15px]"
+                  className="w-full px-4 py-3 bg-[#0a1a1e]/50 border border-white/10 rounded-lg text-white placeholder-[#b8d4e3]/40 focus:outline-none focus:border-[#1d88a4] transition-colors text-[15px]"
                   style={{ fontFamily: "'Work Sans', sans-serif" }}
                   placeholder="Your company"
                 />
@@ -178,7 +178,7 @@ export function ContactForm() {
                   id="message"
                   name="message"
                   rows={3}
-                  className="w-full px-4 py-3 bg-[#1a4a5e]/50 border border-white/10 rounded-lg text-white placeholder-[#b8d4e3]/40 focus:outline-none focus:border-[#1d88a4] transition-colors text-[15px] resize-none"
+                  className="w-full px-4 py-3 bg-[#0a1a1e]/50 border border-white/10 rounded-lg text-white placeholder-[#b8d4e3]/40 focus:outline-none focus:border-[#1d88a4] transition-colors text-[15px] resize-none"
                   style={{ fontFamily: "'Work Sans', sans-serif" }}
                   placeholder="Tell us about your use case..."
                 />
@@ -211,7 +211,7 @@ export function ContactForm() {
         >
           <path
             d="M0,40 C120,80 240,0 360,40 C480,80 600,0 720,40 C840,80 960,0 1080,40 C1200,80 1320,0 1440,40 L1440,120 L0,120 Z"
-            fill="#25373b"
+            fill="#0f1e22"
           />
         </svg>
       </div>

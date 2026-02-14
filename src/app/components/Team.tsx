@@ -30,7 +30,7 @@ export function Team() {
       id="team"
       className="relative px-6 md:px-8 pt-12 md:pt-20 pb-0 overflow-hidden"
       style={{
-        background: 'linear-gradient(180deg, #1f3438 0%, #1a2a2e 100%)',
+        background: 'linear-gradient(180deg, #2d5a68 0%, #234550 100%)',
       }}
     >
       <div className="max-w-[1060px] mx-auto">
@@ -131,7 +131,7 @@ export function Team() {
         >
           <path
             d="M0,40 C120,80 240,0 360,40 C480,80 600,0 720,40 C840,80 960,0 1080,40 C1200,80 1320,0 1440,40 L1440,120 L0,120 Z"
-            fill="#25373b"
+            fill="#1d3a42"
           />
         </svg>
       </div>

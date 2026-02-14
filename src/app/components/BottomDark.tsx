@@ -13,19 +13,19 @@ export function BottomDark() {
       id="about"
       className="relative px-6 md:px-8 pt-12 md:pt-20 pb-0 text-center overflow-hidden"
       style={{
-        background: 'linear-gradient(180deg, #25373b 0%, #1a2a2e 100%)',
+        background: 'linear-gradient(180deg, #4d8a98 0%, #3a6a78 100%)',
       }}
     >
       <div className="max-w-[800px] mx-auto">
         <motion.h2
-          className="text-[15px] md:text-[17px] text-[#b8d4e3]/60 mb-1 text-center tracking-[0.02em]"
+          className="text-[15px] md:text-[17px] text-[#003a59]/70 mb-1 text-center tracking-[0.02em]"
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 400 }}
           {...fadeUp(0)}
         >
           Why
         </motion.h2>
         <motion.h3
-          className="text-[1.8rem] md:text-[2.4rem] lg:text-[2.8rem] leading-[1.1] tracking-[-0.02em] text-[#1d88a4] mb-6"
+          className="text-[1.8rem] md:text-[2.4rem] lg:text-[2.8rem] leading-[1.1] tracking-[-0.02em] text-[#003a59] mb-6"
           style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 400 }}
           {...fadeUp(0.05)}
         >
@@ -34,7 +34,7 @@ export function BottomDark() {
 
         <motion.div className="space-y-4 mb-6" {...fadeUp(0.2)}>
           <p
-            className="text-[14px] md:text-[16px] text-[#b8d4e3] leading-[1.7]"
+            className="text-[14px] md:text-[16px] text-[#0a2a3a] leading-[1.7]"
             style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
           >
             Protein design is fast on the surface, slow the deeper you go. Generative models can produce
@@ -44,7 +44,7 @@ export function BottomDark() {
             weakly, or fall apart under real conditions.
           </p>
           <p
-            className="text-[14px] md:text-[16px] text-[#b8d4e3] leading-[1.7]"
+            className="text-[14px] md:text-[16px] text-[#0a2a3a] leading-[1.7]"
             style={{ fontFamily: "'Work Sans', sans-serif", fontWeight: 300 }}
           >
             The only way to guarantee you've got the right molecule is to test
@@ -89,7 +89,7 @@ export function BottomDark() {
         >
           <path
             d="M0,40 C120,80 240,0 360,40 C480,80 600,0 720,40 C840,80 960,0 1080,40 C1200,80 1320,0 1440,40 L1440,120 L0,120 Z"
-            fill="#1f3438"
+            fill="#2d5a68"
           />
         </svg>
       </div>
